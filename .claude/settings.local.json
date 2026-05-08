@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Recurse \"C:\\\\projects\\\\myClaude\" | Where-Object { !$_.PSIsContainer } | Select-Object FullName)"
+    ]
+  }
+}
